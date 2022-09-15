@@ -24,6 +24,7 @@ function App() {
     .then(response => response.json())
     .then(data => {
       setGames(data)
+      console.log(data)
     })
   }, [])
 
@@ -40,6 +41,7 @@ function App() {
       </h1>
 
       <div className="grid grid-cols-6 gap-6 mt-16 ">
+     
         {games.map(game => {
           return (
             <GameBanner 
