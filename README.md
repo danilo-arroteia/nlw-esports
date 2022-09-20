@@ -1,4 +1,4 @@
-# nlw-esports
+# nlw-eSports
 
 App feito durante a NLW dos dias 13/09 até o dia 17/09 pela melhor equipe de Devs.
 
