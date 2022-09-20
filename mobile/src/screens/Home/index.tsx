@@ -20,7 +20,7 @@ export function Home() {
     navigation.navigate('game', { id, title, bannerUrl })
   }
   useEffect(() => {
-    fetch("http://127.0.0.1:3333/games")
+    fetch("http://192.168.0.101:3333/games")
       .then((response) => response.json())
       .then((data) => setGames(data));
   }, []);
