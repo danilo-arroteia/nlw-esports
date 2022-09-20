@@ -10,6 +10,7 @@ import logoImg from '../../assets/logo-nlw-esports.png';
 import { Background } from "../../components/Background";
 import { DuoCard, DuoCardProps } from "../../components/DuoCard";
 import { Header } from "../../components/Header";
+import { DuoMatch } from "../../components/DuoMatch";
 
 import { styles } from "./styles";
 import { THEME } from "../../theme";
@@ -79,6 +80,10 @@ export function Game() {
           style={styles.containerList}
           contentContainerStyle={styles.contentList}
           showsVerticalScrollIndicator={false}
+        />
+        <DuoMatch 
+          visible={true}
+          discord="Shyumi#3072"
         />
       </SafeAreaView>
     </Background>
